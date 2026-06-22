@@ -1,0 +1,34 @@
+# Secrets / env
+.env
+.env.*
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Node / frontend
+node_modules/
+jarvis-ui/dist/
+jarvis-ui/node_modules/
+
+# Android build artifacts
+android/build/
+android/.gradle/
+android/app/build/
+android/.idea/
+android/local.properties
+*.apk
+
+# Local data / logs
+data/*.db
+*.log
+jarvis_log.txt
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
